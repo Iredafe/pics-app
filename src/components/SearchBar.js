@@ -1,11 +1,15 @@
 import React from 'react';
 
-const SearchBar=()=>{
+class SearchBar extends React.Component{
 
-
+render(){
     return <div>
         Search Bar
+        <br></br>
+        <input type='text'></input>
+        <button > Submit</button>
     </div>
+}
 }
 
 export default SearchBar;
