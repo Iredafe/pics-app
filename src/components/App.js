@@ -5,7 +5,7 @@ import SearchBar from './SearchBar';
 const App =()=>{
 
       return(
-        <div>
+        <div className="ui container" style={{marginTop: '10px'}}>
           Hello World - in App
           <SearchBar/>
           <ImageList/>

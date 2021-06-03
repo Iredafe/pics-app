@@ -3,11 +3,13 @@ import React from 'react';
 class SearchBar extends React.Component{
 
 render(){
-    return <div>
+    return <div className="ui segment">
         Search Bar
         <br></br>
-        <input type='text'></input>
+        <form className="ui form">
+        <input type='text' className="field"></input>
         <button > Submit</button>
+        </form>
     </div>
 }
 }
